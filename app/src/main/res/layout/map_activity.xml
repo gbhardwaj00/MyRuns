@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment" >
+    </fragment>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/statActType"
+            android:text="Type: " />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/statAvgSpeed"
+            android:text="Avg. Speed: " />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/statCurSpeed"
+            android:text="Cur. Speed: " />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/statClimb"
+            android:text="Climb: " />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/statCalories"
+            android:text="Calorie: " />
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/statDistance"
+            android:text="Distance" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/saveMapActbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CancelMapActbtn"
+            android:text="Cancel"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/deleteMapEntrybtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Delete"
+            />
+    </LinearLayout>
+</FrameLayout>

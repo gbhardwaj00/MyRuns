@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="@string/accountPreferences"
+        android:title="@string/actPrefTitle">
+
+        <Preference
+            android:key="@string/profPref"
+            android:title="@string/profPrefTitle"
+            android:summary="@string/profPrefHint">
+            <intent android:action="com.stressmeter.myruns.ProfileActivity"/>
+        </Preference>
+
+        <CheckBoxPreference
+            android:key="@string/privacyPref"
+            android:title="@string/privacyPrefTitle"
+            android:summary="@string/privacyPrefHint"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="@string/additionalSettingsPreferences"
+        android:title="@string/additionalSettingsPrefTitle">
+
+        <ListPreference
+            android:key="@string/keyUnitsPref"
+            android:title="@string/unitPrefTitle"
+            android:summary="@string/unitPrefHint"
+            android:entries="@array/unit_entries"
+            android:entryValues="@array/unit_values"
+            android:defaultValue="kms"
+             />
+
+        <EditTextPreference
+            android:key="@string/keyCommentPref"
+            android:title="@string/titleCommentPref"
+            android:summary="@string/hintCommentPref"
+            android:dialogTitle="@string/dialogCommentPrefTitle"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="@string/miscPreferences"
+        android:title="@string/miscPrefTitle">
+
+        <Preference
+            android:title="@string/webpagePrefTitle"
+            android:summary="@string/webpagePrefHint">
+
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://www.sfu.ca/computing.html"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

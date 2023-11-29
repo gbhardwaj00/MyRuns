@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">MyRuns</string>
+
+<!--    Profile Page Resources -->
+    <string name="ui_button_change_title">Take Picture</string>
+    <string name="profImgBtn">Change</string>
+    <string name="profName">Name</string>
+    <string name="profNameHint">John Doe</string>
+    <string name="profEmail">E-mail</string>
+    <string name="profEmailHint">email@youremail.com</string>
+    <string name="profPhone">Phone</string>
+    <string name="profPhoneHint">(XXX)-XXX-XXXX</string>
+    <string name="profGender">Select your gender:</string>
+    <string name="profGenderM">Male</string>
+    <string name="profGenderF">Female</string>
+    <string name="profClass">Class</string>
+    <string name="profMajor">Major</string>
+    <string name="profClassHint">2026</string>
+    <string name="profMajorHint">Computer Science</string>
+    <string name="profSaveBtn">Save</string>
+    <string name="profCancelBtn">Cancel</string>
+
+    <!--    Settings Preference Page Resources -->
+    <string name="preference_file_key">saved_prof_data</string>
+    <string name="accountPreferences">act_pref</string>
+    <string name="actPrefTitle">Account Preferences</string>
+    <string name="profPref">profPref</string>
+    <string name="profPrefTitle">Name, Email, Class etc</string>
+    <string name="profPrefHint">User Profile</string>
+    <string name="privacyPref">privacy</string>
+    <string name="privacyPrefTitle">Privacy Setting</string>
+    <string name="privacyPrefHint">Posting your records anonymously</string>
+    <string name="additionalSettingsPreferences">prefer_additional</string>
+    <string name="additionalSettingsPrefTitle">Additional Settings</string>
+    <string name="keyUnitsPref">key_units_pref</string>
+    <string name="unitPrefTitle">Unit Preferences</string>
+    <string name="unitPrefHint">Select the unit you want to use for your records</string>
+    <string name="keyCommentPref">comment_pref</string>
+    <string name="titleCommentPref">Comment</string>
+    <string name="hintCommentPref">Please enter your comments</string>
+    <string name="dialogCommentPrefTitle">Comments</string>
+    <string name="miscPreferences">prefer_misc</string>
+    <string name="miscPrefTitle">Additional Settings</string>
+    <string name="webpagePrefTitle">Webpage</string>
+    <string name="webpagePrefHint">https://www.sfu.ca/computing.html</string>
+    <string name="profile_activity_label">Profile Activity</string>
+    <string name="startFragInputTypeTv">Input Type</string>
+    <string name="startFragActType">Activity Type</string>
+    <string name="startFragStartBtn">START</string>
+    <string name="settings_preference_key">SETTINGS_PREF_KEY</string>
+
+    <string-array name="unit_entries">
+        <item>Metric(Kilometers)</item>
+        <item>Imperial(Miles)</item>
+    </string-array>
+
+    <string-array name="unit_values">
+        <item>"kms"</item>
+        <item>"miles"</item>
+    </string-array>
+
+<!--    Start Fragment Resources-->
+    <string-array name="inputTypeSpinnerEntries">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="activityTypeSpinnerEntries">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Others</item>
+    </string-array>
+
+    <!--Manual Activity Resources-->
+    <string-array name="manual_activity_options">
+        <item>Date</item>
+        <item>Time</item>
+        <item>Duration</item>
+        <item>Distance</item>
+        <item>Calories</item>
+        <item>Heart Rate</item>
+        <item>Comment</item>
+    </string-array>
+</resources>
