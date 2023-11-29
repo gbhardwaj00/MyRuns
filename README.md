@@ -40,6 +40,7 @@ MyRuns is an Android application developed as part of the CMPT362 course at SFU.
   - Real-time GPS trace drawing on Google Maps.
   - Save GPS traces in the database and visualize history on the map.
 - **Learning**:
+  - Implementing status bar and notification panel Notifications using Notification Manager.
   - Took use of GoogleMap API to show live user position.
   - Use services as location listeners to calculate attributes such as distance, average speed, current speed, etc, and show it to the user with Live Data.
 
@@ -48,6 +49,9 @@ MyRuns is an Android application developed as part of the CMPT362 course at SFU.
 - **Functionality**:
   - Collect training data and train a machine learning activity classifier.
   - Implement the classifier in the app for accurate activity recognition.
+- **Learning**:
+  - using Wekalassifer to produce a classifier using tracking input to train model.
+  - Making sure user's privacy and permissions are taken.
 
 ## Installation and Setup
 - Clone the repository: `git clone https://github.com/gbhardwaj00/MyRuns.git`
