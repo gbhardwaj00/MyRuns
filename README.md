@@ -2,7 +2,7 @@
 A fitness tracking android application
 
 ## Overview
-MyRuns is an Android application developed as part of the CMPT362 course at SFU. It is designed to capture and display physical activities using real-time data and user input. The application consists of several labs, each building upon the last, to create a comprehensive fitness tracking app.
+MyRuns is designed to capture and display physical activities using real-time data and user input. The application consists of several labs, each building upon the last, to create a comprehensive fitness tracking app.
 
 ## Labs Overview
 
